@@ -16,6 +16,8 @@ This release includes the following changes since the
         doesn't cover all the MP3 data in a file
         ([#1904](https://github.com/androidx/media/issues/1904)).
 *   Video:
+    *   [TELIA!] Re-enable workaround for wrongly reported performance points for
+        secure codecs ([#2856](https://github.com/androidx/media/issues/2856)).
     *   Rollback of using `MediaCodecAdapter` supplied pixel aspect ratio values
         when provided while processing `onOutputFormatChanged`
         ([#1371](https://github.com/androidx/media/pull/1371)).
